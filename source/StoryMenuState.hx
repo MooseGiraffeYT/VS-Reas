@@ -24,7 +24,8 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
-		['Fridge', 'Drip-or-Yeezys', 'Chicken-N-Sprite']
+		['Fridge', 'Drip-or-Yeezys', 'Chicken-N-Sprite'],
+		['I-Pad', 'Shut-Up', 'Little-Baby']
 	];
 	var curDifficulty:Int = 1;
 
@@ -37,7 +38,8 @@ class StoryMenuState extends MusicBeatState
 
 	var weekNames:Array<String> = [
 		"",
-		'At Boyfriend's House in the afternoon’
+		'At Boyfriend's House in the afternoon’,
+		'Suya's Room'
 	];
 
 	var txtWeekTitle:FlxText;
