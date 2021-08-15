@@ -228,10 +228,10 @@ class CharMenu extends MusicBeatState
                     case "bf-christmas":
                         menuBG.loadGraphic('BG2');
                         menuBG.color = 0xFFFFFF;
-                    case "torch":
+                    case "jaydyn":
                         menuBG.loadGraphic('BG3');
 				        menuBG.color = 0xFF00FF;
-                    case "bf-car":
+                    case "pico":
                         menuBG.loadGraphic('BG1');
 				        menuBG.color = 0xFF00FF;
                     default:
