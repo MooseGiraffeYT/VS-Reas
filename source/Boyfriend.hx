@@ -8,7 +8,7 @@ import flixel.util.FlxTimer;
 using StringTools;
 
 class Boyfriend extends Character
-{
+{public var sprTracker:FlxSprite;
 	public var stunned:Bool = false;
 
 	public function new(x:Float, y:Float, ?char:String = 'bf')
@@ -38,6 +38,11 @@ class Boyfriend extends Character
 			}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed); 
+		if (sprTracker != null)
+		{
+			x = (sprTracker.y * 2) + 90 - 350;
+			y = FlxG.height / 3 - 68;
+		}
 	}
 }
