@@ -88,7 +88,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.ID = i;
 			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
-			menuItem.scrollFactor.set();
+			menuItem.scrollFactor.set(3);
 			menuItem.antialiasing = true;
 		}
 
